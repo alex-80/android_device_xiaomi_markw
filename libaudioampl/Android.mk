@@ -1,14 +1,15 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES += \
-    hardware/qcom/audio-caf-msm8996/hal/msm8916/ \
-    hardware/qcom/audio-caf-msm8996/hal/ \
-    hardware/qcom/audio-caf-msm8996/hal/audio_extn \
+    hardware/qcom/audio/hal/msm8916/ \
+    hardware/qcom/audio/hal/ \
+    hardware/qcom/audio/hal/audio_extn \
      $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
 		 external/tinyalsa/include \
 		 external/tinycompress/include \
 		 hardware/libhardware/include \
 		 system/media/audio_route/include \
+		 system/media/audio_utils/include \
 		 device/xiaomi/markw/power \
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 LOCAL_SHARED_LIBRARIES := liblog \
