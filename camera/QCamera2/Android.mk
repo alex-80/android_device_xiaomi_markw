@@ -81,7 +81,8 @@ LOCAL_C_INCLUDES := \
         hardware/qcom/media-caf-msm8996/mm-core/inc \
         system/core/include/cutils \
         system/core/include/system \
-        system/media/camera/include/system
+        system/media/camera/include/system \
+	hardware/qcom/display/msm8996/libgralloc
 
 #HAL 1.0 Include paths
 LOCAL_C_INCLUDES += \
